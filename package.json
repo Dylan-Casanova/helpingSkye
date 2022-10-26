@@ -1,0 +1,28 @@
+{
+  "name": "amtil-cms",
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": {
+    "node": ">=14.15.x",
+    "npm": "8.1.x"
+  },
+  "scripts": {
+    "back-install": "cd backend && yarn",
+    "backend": "cd backend && yarn start",
+    "front-build": "cd frontend && yarn build",
+    "front-install": "cd frontend && yarn",
+    "frontend": "cd frontend && yarn start",
+    "install": "yarn front-install && yarn back-install",
+    "local-backend": "cd backend && yarn local-start",
+    "local-frontend": "yarn frontend",
+    "local-start": "concurrently -n 'local-frontend,local-backend' -c 'bgBlue.bold,bgMagenta.bold' 'yarn local-frontend' 'yarn local-backend'",
+    "start": "concurrently -n 'frontend,backend' -c 'bgBlue.bold,bgMagenta.bold' 'yarn frontend' 'yarn backend'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AMTIL",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}

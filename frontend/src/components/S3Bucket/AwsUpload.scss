@@ -1,0 +1,21 @@
+.success-message {
+  color: rgb(23, 180, 36);
+  font-size: 1rem;
+}
+.warning-message {
+  color: rgb(97, 104, 98);
+  font-size: 1rem;
+}
+#upload-button {
+  border: 1px solid rgb(39, 174, 184);
+  padding: 5px;
+  border-radius: 10px;
+  background-color: none;
+  transition: 0.8s;
+  border-color: #667085;
+  color: #667085;
+  &:hover {
+    background-color: #667085;
+    color: white;
+  }
+}

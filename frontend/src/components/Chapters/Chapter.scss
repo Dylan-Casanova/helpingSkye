@@ -1,0 +1,111 @@
+#update-button {
+  border: 1px solid #479685;
+  color: #479647;
+  border-radius: 15px;
+  &:hover {
+    background-color: #479685;
+    color: white;
+  }
+}
+#delete-button {
+  border: 1px solid #f54b4b;
+  color: #f54b4b;
+  border-radius: 15px;
+  &:hover {
+    background-color: #f54b4b;
+    color: white;
+  }
+}
+#save-button {
+  border: 1px solid blue;
+  padding: 0.25rem;
+  color: rgb(11, 73, 243);
+  border-radius: 12px;
+  &:hover {
+    background-color: blue;
+    color: white;
+  }
+}
+#cancel-button {
+  border: 1px solid #f54b4b;
+  color: #f54b4b;
+  padding: 0.25rem;
+  border-radius: 15px;
+  &:hover {
+    background-color: #f54b4b;
+    color: white;
+  }
+}
+.chakra-stack {
+  .margin-bottom {
+    margin-bottom: 1.3rem;
+  }
+  .description {
+    width: 25rem;
+    height: 5rem;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+  }
+  .primary-button {
+    width: 5rem;
+    border: 2px solid #6aa9cb;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: none;
+    transition: 0.8s;
+    color: #055d8e;
+    &:hover {
+      background-color: #055d8e;
+      color: white;
+    }
+  }
+}
+.form {
+  margin-top: 0.8rem;
+  margin-bottom: 1.5rem;
+
+  &-title {
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 1rem 0rem 1rem 0rem;
+    color: #4aa8dffd;
+  }
+}
+.radio {
+  &-input {
+    height: 1.1rem;
+  }
+
+  &-label {
+    display: inline;
+    font-size: 0.9rem;
+  }
+}
+.input-text {
+  border-radius: 25px;
+  background-color: white;
+  margin-bottom: 0.8rem;
+}
+.table-title {
+  font-weight: 400;
+  padding: 0.3rem 0rem 0.8rem 29rem;
+  color: #4aa8dffd;
+  font-size: 1.5rem;
+}
+input[type="file"]::file-selector-button {
+  border: 1px solid rgb(39, 174, 184);
+  padding: 2px;
+  border-radius: 10px;
+  background-color: none;
+  transition: 0.8s;
+  border-color: #4aa8dffd;
+  color: #4aa8dffd;
+  &:hover {
+    background-color: #96dbf0;
+    border: 1px dashed #5cd6f5;
+    color: rgb(255, 2, 2);
+  }
+}
+table {
+  table-layout: fixed;
+}

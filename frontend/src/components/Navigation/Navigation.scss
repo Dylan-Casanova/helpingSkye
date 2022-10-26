@@ -1,0 +1,35 @@
+.nav-search {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  background-color: white;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.nav-icon {
+  color: #878383;
+}
+
+.nav-input {
+  border: 0;
+  outline: 0;
+  margin-left: 10px;
+  background-color: #fff;
+}
+
+.profile-icon {
+  color: #00000080;
+}
+
+.search-icon {
+  margin-left: 10px;
+  color: #929295;
+}
+
+.nav-bar {
+  background-color: #d8e7eb;
+  font-size: 1em;
+  height: 60px;
+}

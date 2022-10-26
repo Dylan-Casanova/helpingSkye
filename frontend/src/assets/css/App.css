@@ -1,0 +1,393 @@
+thead{
+ background-color: #dbf4fd;
+}
+
+/* Cards */
+.Card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgb(255, 255, 255);
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  justify-content: center;
+}
+
+.cardBody {
+  flex: 1 1 auto;
+  min-height: 1px;
+  /* padding: 1.25rem; */
+}
+
+.cardIcon{
+  font-size: ".5rem";
+  font-weight: "bolder";
+  background-color: "green";
+  color: "white";
+  display: "flex";
+  text-align: "right";
+  border: "none";
+  padding: 0;
+  margin-top: 3px;
+}
+
+/* Storyboard Panels */
+
+
+.panelImg{
+  width: 100%;
+  /* height: 50%; */
+  border: 1px;
+  border-color: darkgrey;
+  border-style: solid;
+}
+
+.panelText{
+  font-size: 75%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  padding: 5px;
+}
+.Panel {
+  position: relative;
+     margin: auto;
+     display: flex;
+    flex-direction: column;
+    width: 55%;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 10px;
+   
+    box-shadow: 10px 10px 5px grey;
+}
+.PanelBox {
+  position: relative;
+     margin: auto;
+     display: flex;
+    flex-direction: column;
+    width: 200px;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 10px;
+   
+    box-shadow: 10px 10px 5px grey;
+}
+
+.panelHead{
+  width: 100%;
+  border: 1px;
+  border-color: darkgrey;
+  border-style: solid;
+  opacity: 65%;
+  padding: 5; 
+  display: flex;
+  margin: auto;
+  border-style: solid;
+  border-width: 0px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  width: 100%;
+   background-color: #4AB8DF;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.registration, .login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+}
+
+
+thead{
+  font-size: 12px;
+}
+
+.MainMenuBtn{
+  width: 12em;
+    background-color: #4AB8DF;
+    color: rgb(255, 255, 255);
+    border-radius: 4%;
+    font-size: 1.9em;
+    margin: auto;
+    padding: .4em;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    vertical-align: middle;
+    box-shadow: 10px 10px 5px grey;
+   
+}
+
+.SmallLinkBtn{
+  width: 8em;
+    background-color: #4AB8DF;
+    color: rgb(15, 15, 15);
+    border-radius: 4%;
+    font-size: 1em;
+    margin-bottom: 10px;
+    padding: .1em;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    vertical-align: middle;
+    margin-right: 60%;
+    box-shadow: 5px 5px 5px grey;
+   
+}
+
+
+
+.navbar-header{
+  color: rgb(59, 59, 59);
+  font-size: 1em;
+  max-height: 45px;
+  width: 100%;
+  background-color: #4AB8DF;
+  margin-bottom:40px ;
+  text-align: center;
+}
+
+.navbar-header a {
+  color:  rgb(59, 59, 59);
+  font-size: 1em;
+  margin-left: 3px;
+  margin-right: 3px;
+ 
+}
+
+.menuBox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width:100%;
+  align-items: center;
+  margin: auto;
+  background-color: #dbf4fd;
+  box-shadow: 10px 10px 5px grey;
+  padding: 15px;
+}
+.missionInfo {
+  text-align: center;
+  justify-content: center;
+  /* height: fit-content; */
+  height: 2%;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  background-color: #ebf3f5;
+  box-shadow: 10px 10px 5px grey;
+  padding: 2px;
+  border-color: #ccc;
+  border-width: 2px;
+  border-style: solid; 
+}
+
+.textBlock {
+  
+  text-align: center;
+  justify-content: center;
+  width:80%;
+  align-items: center;
+  margin-top: 5px;
+  margin: auto;
+  background-color: #ebf3f5;
+  box-shadow: 10px 10px 5px grey;
+  padding: 10px;
+  border-color: #ccc;
+  border-width: 2px;
+  border-style: solid; 
+}
+
+/* Tabbed Headers*/
+.tabs{
+  border-color: #ccc;
+  border-width: 0px;
+  border-style: solid; 
+  border-top: 1px;
+  justify-content: center;
+  align-content: center;
+  /* padding: 10px; */
+  margin-top: 25px;
+}
+.tab-list {  
+  /* border: 1px solid #ccc; */
+  min-width: 100%;
+  padding: 0;
+  border-top: 2px;
+  border-bottom: 0px;
+  /* border-left: 1px solid #ccc; */
+  /* border-right: 1px solid #ccc; */
+  
+  
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.5rem;
+  background-color: #dbf4fd;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+ 
+}
+
+.tab-list-active {
+  background-color: white;
+  /* border: solid #ccc; */
+  box-shadow: 5px 5px 5px grey;
+  font-weight: bold;
+  /* border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 2px solid #ccc;
+  border-bottom: 0px solid #ccc; */
+}
+
+.TabbedContainer{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* border: solid #224e5e;
+  border-width: 1px 1px 1px 1px; */
+  /* border-top: 0px; */
+  background-color: rgb(255, 255, 255);
+  width: 95%;
+  margin: auto;
+  margin-bottom: 20px;
+  
+
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  background-color: #f0fbff;
+  margin-top: 15px ;
+  padding: 5px ;
+  border-radius: 3% ;
+}
+
+.addElement {
+  width: 300px;
+  height: 30px;
+  background-color: #f0fbff;
+  margin-top: 5px ;
+  margin-bottom: 5px ;
+  padding: 5px ;
+  border-radius: 3% ;
+}
+
+.SubMenuBtn{
+  width: 8em;
+    background-color: #4AB8DF;
+    color: rgb(8, 8, 8);
+    font-size: .25em;
+    margin: auto;
+    padding: .1em;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    vertical-align: middle;
+    box-shadow: 8px 8px 5px grey;
+   
+}
+
+.missionBox {
+  position: fixed;
+  top: 50px;
+  left: 25px;
+  width: 300px;
+  /* height: 200px; */
+  background-color: #caf0ff;
+  padding: 10px;
+  color: rgb(15, 15, 15);
+  border: 1px solid #444;
+  border-left: 1px solid #444;
+  border-right: 1px solid #111;
+  border-bottom: 1px solid #111;
+  box-sizing: border-box;
+  position: fixed;
+  box-shadow: 10px 10px 5px grey;
+   
+}
+
+
+.viewBox{
+  width: 100%;
+  background-color: #caf0ff;
+  padding: 5px;
+  display: inline-block;
+  flex-direction: inherit;
+  color: rgb(15, 15, 15);
+  /* border: 1px solid #444;
+  border-left: 1px solid #444;
+  border-right: 1px solid #111;
+  border-bottom: 1px solid #111; */
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 10px 10px 5px grey;
+  justify-content: center;
+
+}
+
+.viewBoxHeader{
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 100%;
+  height: 3emem;
+  background-color: #4AB8DF;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 5px;
+  padding: 0px;
+  border: 1px solid #444;
+  border-left: 1px solid #444;
+  border-right: 1px solid #111;
+  border-bottom: 1px solid #111;
+
+}
+
+.viewBoxEdit{
+  width: 3em;
+    background-color: #4AB8DF;
+    color: rgb(8, 8, 8);
+    font-size: 1em;
+    margin: 5px;
+    padding: .1em;
+    justify-content: center;
+    text-align: left;
+    display: flex;
+    box-shadow: 1px 1px 1px grey;
+   
+}
